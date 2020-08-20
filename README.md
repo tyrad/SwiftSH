@@ -24,7 +24,8 @@ Add this to your *Podfile*:
 ```Ruby
 use_frameworks!
 
-pod 'SwiftSH'
+#pod 'SwiftSH'
+pod 'SwiftSH',  :git => 'https://github.com/tyrad/SwiftSH'
 ```
 
 ### Carthage
